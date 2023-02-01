@@ -33,4 +33,4 @@ The basic function is:
 
 ### If you have any questions raise an issue and ask away! :)
 
-This project was developed using code from https://github.com/RunTimeError2/CNN_Nios/tree/master/First_Nios [1] // All credits belong to the owner
+[1] This project was developed using code from https://github.com/RunTimeError2/CNN_Nios/tree/master/First_Nios // All credits belong to the owner
