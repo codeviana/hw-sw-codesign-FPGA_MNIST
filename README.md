@@ -21,6 +21,12 @@ The basic function is:
   - Software components
     - Rescaler
     - MNIST classifier from [1]
+    
+## File navigation
+  The three most important files in this project are
+    - DE2_115_CAMERA.qpf  (Quartus Project File)
+    - de2_115_camera.qsys (Platform Designer/Qsys File)
+    - lcd_tryout folders  (Eclipse for NiosII Tools Files)
 
 
 
