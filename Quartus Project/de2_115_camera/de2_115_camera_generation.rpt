@@ -1,0 +1,135 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Users\Afonso\Documents\CPHS\Demonstration_v4\DE2_115_CAMERA\de2_115_camera.qsys --block-symbol-file --output-directory=C:\Users\Afonso\Documents\CPHS\Demonstration_v4\DE2_115_CAMERA\de2_115_camera --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading DE2_115_CAMERA/de2_115_camera.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding lcd_0 [altera_up_avalon_character_lcd 18.0]
+Progress: Parameterizing module lcd_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 18.1]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding pixel [altera_avalon_pio 18.1]
+Progress: Parameterizing module pixel
+Progress: Adding read_address [altera_avalon_pio 18.1]
+Progress: Parameterizing module read_address
+Progress: Adding switch [altera_avalon_pio 18.1]
+Progress: Parameterizing module switch
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: de2_115_camera.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: de2_115_camera.pixel: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: de2_115_camera.switch: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\Afonso\Documents\CPHS\Demonstration_v4\DE2_115_CAMERA\de2_115_camera.qsys --synthesis=VHDL --output-directory=C:\Users\Afonso\Documents\CPHS\Demonstration_v4\DE2_115_CAMERA\de2_115_camera\synthesis --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading DE2_115_CAMERA/de2_115_camera.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding lcd_0 [altera_up_avalon_character_lcd 18.0]
+Progress: Parameterizing module lcd_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 18.1]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding pixel [altera_avalon_pio 18.1]
+Progress: Parameterizing module pixel
+Progress: Adding read_address [altera_avalon_pio 18.1]
+Progress: Parameterizing module read_address
+Progress: Adding switch [altera_avalon_pio 18.1]
+Progress: Parameterizing module switch
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: de2_115_camera.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: de2_115_camera.pixel: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: de2_115_camera.switch: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: de2_115_camera: Generating de2_115_camera "de2_115_camera" for QUARTUS_SYNTH
+Info: jtag_uart_0: Starting RTL generation for module 'de2_115_camera_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec C:/intelfpga/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga/18.1/quartus/bin64/perl/lib -I C:/intelfpga/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga/18.1/quartus/sopc_builder/bin -I C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=de2_115_camera_jtag_uart_0 --dir=C:/Users/Afonso/AppData/Local/Temp/alt9384_8131736129227026353.dir/0002_jtag_uart_0_gen/ --quartus_dir=C:/intelfpga/18.1/quartus --verilog --config=C:/Users/Afonso/AppData/Local/Temp/alt9384_8131736129227026353.dir/0002_jtag_uart_0_gen//de2_115_camera_jtag_uart_0_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_0: Done RTL generation for module 'de2_115_camera_jtag_uart_0'
+Info: jtag_uart_0: "de2_115_camera" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: lcd_0: Starting Generation of Character LCD
+Info: lcd_0: "de2_115_camera" instantiated altera_up_avalon_character_lcd "lcd_0"
+Info: nios2_gen2_0: "de2_115_camera" instantiated altera_nios2_gen2 "nios2_gen2_0"
+Info: onchip_memory2_0: Starting RTL generation for module 'de2_115_camera_onchip_memory2_0'
+Info: onchip_memory2_0:   Generation command is [exec C:/intelfpga/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga/18.1/quartus/bin64/perl/lib -I C:/intelfpga/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga/18.1/quartus/sopc_builder/bin -I C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=de2_115_camera_onchip_memory2_0 --dir=C:/Users/Afonso/AppData/Local/Temp/alt9384_8131736129227026353.dir/0004_onchip_memory2_0_gen/ --quartus_dir=C:/intelfpga/18.1/quartus --verilog --config=C:/Users/Afonso/AppData/Local/Temp/alt9384_8131736129227026353.dir/0004_onchip_memory2_0_gen//de2_115_camera_onchip_memory2_0_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory2_0: Done RTL generation for module 'de2_115_camera_onchip_memory2_0'
+Info: onchip_memory2_0: "de2_115_camera" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: pixel: Starting RTL generation for module 'de2_115_camera_pixel'
+Info: pixel:   Generation command is [exec C:/intelfpga/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga/18.1/quartus/bin64/perl/lib -I C:/intelfpga/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga/18.1/quartus/sopc_builder/bin -I C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=de2_115_camera_pixel --dir=C:/Users/Afonso/AppData/Local/Temp/alt9384_8131736129227026353.dir/0005_pixel_gen/ --quartus_dir=C:/intelfpga/18.1/quartus --verilog --config=C:/Users/Afonso/AppData/Local/Temp/alt9384_8131736129227026353.dir/0005_pixel_gen//de2_115_camera_pixel_component_configuration.pl  --do_build_sim=0  ]
+Info: pixel: Done RTL generation for module 'de2_115_camera_pixel'
+Info: pixel: "de2_115_camera" instantiated altera_avalon_pio "pixel"
+Info: read_address: Starting RTL generation for module 'de2_115_camera_read_address'
+Info: read_address:   Generation command is [exec C:/intelfpga/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga/18.1/quartus/bin64/perl/lib -I C:/intelfpga/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga/18.1/quartus/sopc_builder/bin -I C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=de2_115_camera_read_address --dir=C:/Users/Afonso/AppData/Local/Temp/alt9384_8131736129227026353.dir/0006_read_address_gen/ --quartus_dir=C:/intelfpga/18.1/quartus --verilog --config=C:/Users/Afonso/AppData/Local/Temp/alt9384_8131736129227026353.dir/0006_read_address_gen//de2_115_camera_read_address_component_configuration.pl  --do_build_sim=0  ]
+Info: read_address: Done RTL generation for module 'de2_115_camera_read_address'
+Info: read_address: "de2_115_camera" instantiated altera_avalon_pio "read_address"
+Info: switch: Starting RTL generation for module 'de2_115_camera_switch'
+Info: switch:   Generation command is [exec C:/intelfpga/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga/18.1/quartus/bin64/perl/lib -I C:/intelfpga/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga/18.1/quartus/sopc_builder/bin -I C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=de2_115_camera_switch --dir=C:/Users/Afonso/AppData/Local/Temp/alt9384_8131736129227026353.dir/0007_switch_gen/ --quartus_dir=C:/intelfpga/18.1/quartus --verilog --config=C:/Users/Afonso/AppData/Local/Temp/alt9384_8131736129227026353.dir/0007_switch_gen//de2_115_camera_switch_component_configuration.pl  --do_build_sim=0  ]
+Info: switch: Done RTL generation for module 'de2_115_camera_switch'
+Info: switch: "de2_115_camera" instantiated altera_avalon_pio "switch"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "de2_115_camera" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "de2_115_camera" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "de2_115_camera" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'de2_115_camera_nios2_gen2_0_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA/18.1/quartus/bin64//eperlcmd.exe -I C:/intelFPGA/18.1/quartus/bin64//perl/lib -I C:/intelfpga/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga/18.1/quartus/sopc_builder/bin -I C:/intelfpga/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=de2_115_camera_nios2_gen2_0_cpu --dir=C:/Users/Afonso/AppData/Local/Temp/alt9384_8131736129227026353.dir/0010_cpu_gen/ --quartus_bindir=C:/intelFPGA/18.1/quartus/bin64/ --verilog --config=C:/Users/Afonso/AppData/Local/Temp/alt9384_8131736129227026353.dir/0010_cpu_gen//de2_115_camera_nios2_gen2_0_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2023.01.27 15:59:12 (*) Starting Nios II generation
+Info: cpu: # 2023.01.27 15:59:12 (*)   Checking for plaintext license.
+Info: cpu: # 2023.01.27 15:59:12 (*)   Plaintext license not found.
+Info: cpu: # 2023.01.27 15:59:12 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2023.01.27 15:59:12 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2023.01.27 15:59:13 (*)   Creating all objects for CPU
+Info: cpu: # 2023.01.27 15:59:14 (*)   Generating RTL from CPU objects
+Info: cpu: # 2023.01.27 15:59:14 (*)   Creating plain-text RTL
+Info: cpu: # 2023.01.27 15:59:14 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'de2_115_camera_nios2_gen2_0_cpu'
+Info: cpu: "nios2_gen2_0" instantiated altera_nios2_gen2_unit "cpu"
+Info: nios2_gen2_0_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_gen2_0_data_master_translator"
+Info: jtag_uart_0_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_0_avalon_jtag_slave_translator"
+Info: nios2_gen2_0_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_gen2_0_data_master_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_0_avalon_jtag_slave_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info: router_004: "mm_interconnect_0" instantiated altera_merlin_router "router_004"
+Info: lcd_0_avalon_lcd_slave_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "lcd_0_avalon_lcd_slave_burst_adapter"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_002: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_002"
+Info: Reusing file C:/Users/Afonso/Documents/CPHS/Demonstration_v4/DE2_115_CAMERA/de2_115_camera/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/Users/Afonso/Documents/CPHS/Demonstration_v4/DE2_115_CAMERA/de2_115_camera/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file C:/Users/Afonso/Documents/CPHS/Demonstration_v4/DE2_115_CAMERA/de2_115_camera/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: lcd_0_avalon_lcd_slave_rsp_width_adapter: "mm_interconnect_0" instantiated altera_merlin_width_adapter "lcd_0_avalon_lcd_slave_rsp_width_adapter"
+Info: Reusing file C:/Users/Afonso/Documents/CPHS/Demonstration_v4/DE2_115_CAMERA/de2_115_camera/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file C:/Users/Afonso/Documents/CPHS/Demonstration_v4/DE2_115_CAMERA/de2_115_camera/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: avalon_st_adapter_001: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter_001"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: error_adapter_0: "avalon_st_adapter_001" instantiated error_adapter "error_adapter_0"
+Info: de2_115_camera: Done "de2_115_camera" with 35 modules, 58 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
