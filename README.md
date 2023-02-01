@@ -1,8 +1,6 @@
 # hw-sw-codesign-FPGA_MNIST
 
 
-This project was developed using code from https://github.com/RunTimeError2/CNN_Nios/tree/master/First_Nios [1] // All credits belong to the owner
-
 The main goal of this project was to design a MNIST classifier using Hardware and Software with the Altera DE2-115 FPGA.
 The basic function is:
   1. Frame digit inside B&W square
@@ -34,3 +32,5 @@ The basic function is:
 
 
 ### If you have any questions raise an issue and ask away! :)
+
+This project was developed using code from https://github.com/RunTimeError2/CNN_Nios/tree/master/First_Nios [1] // All credits belong to the owner
