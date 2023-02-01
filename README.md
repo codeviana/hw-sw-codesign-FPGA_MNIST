@@ -4,7 +4,7 @@
 The main goal of this project was to design a MNIST classifier using Hardware and Software with the Altera DE2-115 FPGA.
 The basic function is:
   1. Frame digit inside B&W square
-  2. Capture digit with camera - KEY [2]
+  2. Capture digit with camera - KEY[2]
   3. Run the classifier - SW[2]
   
 ## Architecture
